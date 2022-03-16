@@ -3,6 +3,9 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import * as earcut from "earcut";
+(window as any).earcut = earcut;
+
 
 ReactDOM.render(
   <React.StrictMode>
